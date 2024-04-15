@@ -27,9 +27,9 @@ msg_buttons=InlineKeyboardMarkup(
 
 
 app=Client('Temp-Mail Bot',
-           api_id=API_ID,
-           api_hash=API_HASH,
-           bot_token=BOT_TOKEN)
+           api_id=21879695,
+           api_hash=d7faf341162a27f8d835d2d0b32bf756,
+           bot_token=6706961456:AAEuMQQUZtEBKowg6Qe1h_UI5O4HtjMRPxg)
 
 email=''
 @app.on_message(filters.command('start'))
